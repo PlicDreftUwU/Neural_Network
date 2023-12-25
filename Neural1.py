@@ -16,7 +16,7 @@ model.compile(optimizer='sgd',  # Descenso de gradiente estocástico
               loss='mean_squared_error')  # Función de pérdida: error cuadrático medio
 
 # Entrenamiento del modelo
-model.fit(x_train, y_train, epochs=4000)  # Entrenar durante 1000 épocas
+model.fit(x_train, y_train, epochs=10000)  # Entrenar durante 1000 épocas
 
 # Predicción con el modelo entrenado
 x_test = np.array([6.0, 7.0], dtype=float)
